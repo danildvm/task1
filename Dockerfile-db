@@ -1,0 +1,3 @@
+FROM postgres:latest
+WORKDIR /db
+ENV POSTGRES_PASSWORD=postgres
